@@ -299,3 +299,14 @@ curl --location --request GET 'http://localhost:3000/cervejas/buscar?temperatura
         }
     }
 ```
+
+## build do projeto
+
+Para executar o build rode os comando abaixo
+
+```bash
+npm run build
+```
+
+## Deploy em produção
+
