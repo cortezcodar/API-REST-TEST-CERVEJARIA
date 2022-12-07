@@ -1,11 +1,13 @@
 {
-    "name": "playground-backend",
+    "name": "api-rest-test-cervejaria",
     "version": "1.0.0",
     "description": "",
-    "main": "server.ts",
+    "main": "./dist/server.js",
     "scripts": {
         "dev": "ts-node-dev  ./src/server.ts",
-        "typeorm": "typeorm-ts-node-commonjs -d ./src/data-soucer.ts"
+        "typeorm": "typeorm-ts-node-commonjs -d ./src/data-soucer.ts",
+        "build": "npx tsc",
+        "start:prod": "node ./dist/server.js"
     },
     "repository": {
         "type": "git",
