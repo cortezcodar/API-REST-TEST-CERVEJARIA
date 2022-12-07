@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "target": "ES2018",
+        "outDir": "./dist",
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "moduleResolution": "Node",
+        "strict": false
+    }
+}
