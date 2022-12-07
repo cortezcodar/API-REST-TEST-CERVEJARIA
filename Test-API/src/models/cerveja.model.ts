@@ -17,7 +17,7 @@ export class Cerveja {
 
 
     @CreateDateColumn()
-    criado_Em: Date;
+    criado_em: Date;
 
     @UpdateDateColumn()
     atualizado_em: Date
